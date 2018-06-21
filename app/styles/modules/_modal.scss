@@ -1,0 +1,69 @@
+.modal{
+  padding: 0;
+  border-radius: 0;
+  max-width: 791px;
+  padding-top: 70px;
+
+  &__title{
+    font-size: 34px;
+    font-weight: 600;
+    line-height: 32px;
+    text-align: center;
+    color: $red;
+    text-transform: uppercase;
+    font-family: "canada-type-gibson";
+  }
+
+  &__input{
+    width: 100%;
+    border-bottom: 1px solid $light-grey;
+    font-size: 18px;
+    font-family: "canada-type-gibson";
+    color: $grey;
+    margin-bottom: 49px;
+    max-width: 85%;
+    margin-left: 60px;
+
+    &::placeholder{
+      font-size: 15px;
+      color: $light-grey;
+      font-family: "canada-type-gibson";
+    }
+  }
+
+  &__password-recovery{
+    text-align: center;
+    display: block;
+    font-size: 18px;
+    line-height: 29px;
+    color: $light-grey;
+    text-transform: uppercase;
+    margin-bottom: 46px;
+  }
+
+  &__buttons{
+    font-size: 0;
+  }
+
+  &__button{
+      display: inline-block;
+      font-size: 20px;
+      letter-spacing: 1px;
+      line-height: 29px;
+      padding: 25px;
+
+    &--grey{
+      width: 50%;
+      color: $white;
+      font-size: 24px;
+      background-color: $light-grey;
+    }
+
+    &--red{
+      width: 50%;
+      color: $white;
+      font-size: 24px;
+      background-color: $red;
+    }
+  }
+}

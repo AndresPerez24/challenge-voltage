@@ -1,5 +1,5 @@
 //Typography
-$font-family-sans-serif: "MinionPro", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif !default;
+$font-family-sans-serif: "canada-type-gibson", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif !default;
 $font-family-serif: Times New Roman, Times, serif !default;
 $font-family-base: $font-family-sans-serif;
 $font-family-icons: "Icon-family";
@@ -27,7 +27,7 @@ $line-height-computed: floor($font-size-base * $line-height-base);
 $base-spacing-unit: $line-height-computed;
 $half-spacing-unit: $line-height-computed / 2;
 
-$headings-font-family: 'IntroRustG-Base2Line';
+$headings-font-family: 'canada-type-gibson';
 $headings-font-weight: 300;
 $headings-line-height: 1.1;
 $headings-color: inherit;
