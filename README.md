@@ -11,7 +11,7 @@ Wizardry Grid - Fully responsive, mobile-first, infinitely nestable, reversible,
 simple to understand, human-friendly, robust grid system.
 
 # Installation
-$ git clone git@github.com:AndresPerez24/voltage-challenge.git
+$ git clone https://github.com/AndresPerez24/challenge-voltage.git
 
 $ npm install
 
