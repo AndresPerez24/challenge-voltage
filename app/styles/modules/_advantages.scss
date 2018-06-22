@@ -29,6 +29,10 @@
     max-width: 230px;
     margin: 0 auto;
     text-align: justify;
+    margin-bottom: 50px;
+    @media #{$extra-large} {
+      margin-bottom: 0;
+    }
   }
 
   &__img{
@@ -43,6 +47,9 @@
     line-height: 29px;
     text-transform: uppercase;
     padding: 10px 60px;
-    margin-top: 111px;
+    margin-top: 20px;
+    @media #{$extra-large} {
+      margin-top: 111px;
+    }
   }
 }

@@ -22,14 +22,17 @@
     line-height: 32px;
     text-transform: uppercase;
     font-weight: 600;
-    margin-left: 103px;
+    margin-left: 0;
     margin-bottom: 40px;
     cursor: pointer;
+
     @media #{$extra-large} {
       margin-bottom: 0;
+      margin-left: 103px;
     }
   }
-  &__buttom{
+
+  &__button{
     text-align: center;
     padding: 10px 30px;
     background-color: $red;
@@ -39,5 +42,20 @@
       }
   }
 
-
+  &__mobile-button{
+    text-align: center;
+    padding: 20px 0px;
+    background-color: #EC3A33;
+    color: #ffffff;
+    width: 100%;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 12px;
+    position: absolute;
+    bottom: -51px;
+    display: initial;
+    @media #{$extra-large} {
+      display: none;
+    }
+  }
 }

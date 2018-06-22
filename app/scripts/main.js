@@ -1,6 +1,7 @@
 $(document).ready(function() {
   const $hamburgerButton = $('.js-hamburger-button');
   const $navigation = $('.js-navigation');
+  const $close = $('#custom-close');
 
   // MENU
   $hamburgerButton.click(() => {

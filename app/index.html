@@ -19,7 +19,7 @@
 
     <header class="header align-items-center">
       <div class="flex align-items-center">
-        <img src="images/main-logo.svg" alt="Logo" class="header__logo">
+        <img class="header__logo" src="images/main-logo.svg" alt="Logo" class="header__logo">
         <a class="header__logo-title" href="">Club voltage</a>
       </div>
       <nav class="js-navigation header__nav">
@@ -30,11 +30,12 @@
           <li class="navigation__item">
             <a class="js-link-" href="#">About us</a>
           </li>
-          <li class="navigation__item navigation__buttom">
+          <li class="navigation__item navigation__button">
             <a href="#ex1" rel="modal:open">Login / sign up</a>
           </li>
         </ul>
       </nav>
+      <a class="navigation__mobile-button" href="#ex1" rel="modal:open">Login / sign up</a>
 
       <button class="js-hamburger-button hamburger-button">
         <span class='hamburger-button__box'>
@@ -88,12 +89,13 @@
     <div id="ex1" class="modal">
       <h1 class="modal__title">Member login</h1>
       <input class="modal__input" type="email" placeholder='EMAIL' require>
-      <input class="modal__input" type="passsword" placeholder='PASSWORD' require>
+      <input class="modal__input" type="password" placeholder='PASSWORD' require>
       <a class="modal__password-recovery" href="">Forgot your password?</a>
       <div class="modal__buttons">
         <button class="modal__button modal__button--grey">Register</button>
         <button class="modal__button modal__button--red">Sign in</button>
       </div>
+      <a class="modal__close" href="#" rel="modal:close">&times;</a>
     </div>
 
 
